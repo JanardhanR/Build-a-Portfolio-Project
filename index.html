@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://weloveiconfonts.com/api/?family=zocial">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="header_logo" class="row">
+                <div id="logo" class="col-md-6">
+                    <!--not using picture here for logo as its a small image-->
+                    <img class="title-logo" src="img/logo.png" alt="Udacity Logo">
+                </div>
+                <div class="col-md-6 text-uppercase">
+                    <h1 id="MyName" class="title-super ">Janardhan R</h1>
+                    <h4 id="MyTitle" class="title-super ">Front-End Ninja</h4>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <picture>
+                    <source media="(max-width:499px)" srcset="img/theHTML-800_small_1x.jpg 1x,img/theHTML-800_small_2x.jpg 2x">
+                    <source media="(min-width:500px)" srcset="img/theHTML-1600_large_1x.jpg 1x,img/theHTML-1600_large_2x.jpg 2x">
+                    <img class="img-responsive" src="img/theHTML.jpg" alt="Ninja the Cat">
+                </picture>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-muted">
+                <h1>Featured Work</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <article class="col-md-4 dark">
+                <figure>
+                    <picture>
+                        <source media="(max-width:499px)" srcset="img/thePeacock_2-800_small_1x.jpg 1x,img/thePeacock_2-800_small_2x.jpg 2x">
+                        <source media="(min-width:500px)" srcset="img/thePeacock-1600_large_1x.jpg 1x,img/thePeacock-1600_large_2x.jpg 2x">
+                        <img class="img-responsive" src="img/thePeacock.jpg" alt="Movie Trailer">
+                    </picture>
+                    <figcaption class="h3 text-uppercase">Movie Trailer</figcaption>
+                </figure>
+                <!--anchor tags cannot contain anything but h1,h2..can contain other elements-->
+                <h4>
+                    <a href="https://github.com/JanardhanR/MovieTrailer">Github/MovieTrailer</a>
+                </h4>
+            </article>
+            <article class="col-md-4 dark">
+                <figure>
+                    <picture>
+                        <source media="(max-width:499px)" srcset="img/theMountain-800_small_1x.jpg 1x,img/theMountain-800_small_2x.jpg 2x">
+                        <source media="(min-width:500px)" srcset="img/theMountain-1600_large_1x.jpg 1x,img/theMountain-1600_large_2x.jpg 2x">
+                        <img class="img-responsive" src="img/thePeacock.jpg" alt="Resume">
+                    </picture>
+                    <figcaption class=" h3 text-uppercase">nanodegree resume</figcaption>
+                </figure>
+                <h4>
+                    <a href="https://github.com/JanardhanR/nanodegree-resume">Github/Resume</a>
+                </h4>
+            </article>
+            <article class="col-md-4  dark">
+                <figure>
+                    <picture>
+                        <source media="(max-width:499px)" srcset="img/welcome-800_small_1x.jpg 1x,img/welcome-800_small_2x.jpg 2x">
+                        <source media="(min-width:500px)" srcset="img/welcome-1600_large_1x.jpg 1x,img/welcome-1600_large_2x.jpg 2x">
+                        <img class="img-responsive" src="img/welcome.jpg" alt="Resume">
+                    </picture>
+                    <figcaption class="h3 text-uppercase">Movie Trailer</figcaption>
+                </figure>
+                <h4>
+                    <a href="https://github.com/JanardhanR/MovieTrailer">Github/MovieTrailer</a>
+                </h4>
+            </article>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social">
+                        <a class="zocial-facebook" href="https://www.facebook.com">facebook</a>
+                        <a class="zocial-twitter" href="https://www.twitter.com">twitter</a>
+                        <a class="zocial-digg" href="https://www.digg.com">digg</a>                        
+                        <a class="zocial-googleplus" href="https://www.googleplus.com">googleplus</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
