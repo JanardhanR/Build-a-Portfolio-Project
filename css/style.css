@@ -1,85 +1,59 @@
-body{
-    font-family: 'Lato', sans-serif;    
+body {
+    font-family: "Lato", sans-serif;
     color: #3A473A;
-    /*color:#747707;*/
     font-weight: 300;
 }
-
-.title-logo{
+.title-logo {
     margin-top: 20px;
 }
-
 @media screen and (min-width: 599px) {
-    #MyName,#MyTitle{
+    #MyName,
+    #MyTitle {
         text-align: left;
     }
 }
-
 @media screen and (min-width: 600px) {
-    #MyName,#MyTitle {
+    #MyName,
+    #MyTitle {
         text-align: right;
         display: block;
     }
 }
-
-.text-muted{
+.text-muted {
     color: #BCBBBB;
 }
-
 .text-primary {
-  color: #3A473A;
+    color: #3A473A;
 }
-
-h4{
+h4 {
     margin-top: 3px;
 }
-
-.dark{
+.dark {
     color: #252825;
 }
-
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #aaa;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #aaa;
 }
-
-/* zocial */
 [class*="zocial-"]:before {
-   color: black;
-  display: inline;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 3px 3px 5px #aaa;
+    color: black;
+    display: inline;
+    font-family: "zocial", sans-serif;
+    text-shadow: 3px 3px 5px #aaa;
 }
-
-footer{
+footer {
     font-family: sans-serif;
     font-size: 20px;
     margin: auto;
 }
-
-
-div#social a {
-  margin: 0 1em 0 0;
+.social a {
+    margin: 0 1em 0 0;
 }
-
-div#social a:last-of-type {
-  margin: 0;
+.social a:last-of-type {
+    margin: 0;
 }
-
-
-div#social {
-  line-height: 2em;
+.social {
+    line-height: 2em;
 }
-
-/*commented for reuse*/
- /** {
-   outline: 1px solid red !important;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}*/
